@@ -13,7 +13,7 @@ It listens on `input` and `keydown` events on the wrapped input text field.
 search options are passed in as attributes.
 
 | attribute | example                      | meaning                             |
-| --------- | ---------------------------- |                                     |
+| --------- | ---------------------------- | ----------------------------------- |
 | include   | products,pages,articles      | entities to include in the search   |
 | filter    | title,id,handle              | filtered result fields              |
 | delay     | 100                          | throttle delay in ms                |
