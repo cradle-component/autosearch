@@ -23,6 +23,7 @@ search options are passed in as attributes.
 
 You can use more attributes as search query parameters, read more at [cradlecms.com](https://cradlecms.com/docs).
 
+
 ### Example
 ```
 {% component 'asearch.js' %}
@@ -30,3 +31,5 @@ You can use more attributes as search query parameters, read more at [cradlecms.
  <input type="search" placeholder="Search" />
 </a-search>   
 ```
+
+<img width="523" height="185" alt="search_web_component_example" src="https://github.com/user-attachments/assets/8d295fef-19b8-47e8-b2bc-a301b2ad8bc5" />
