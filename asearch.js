@@ -1,6 +1,6 @@
 /* asearch.js
  * CradleCMS AutoSearch component
- * version 1.1.0
+ * version 1.1.1
  */
 const searchCSS = new CSSStyleSheet()
 
