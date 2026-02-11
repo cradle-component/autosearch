@@ -21,6 +21,9 @@ searchCSS.replaceSync(`
     top: 100%;
     left: 0;
     padding: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
     max-height: 24em;
     background: var(--color-base-100);
     border: var(--border) solid var(--color-base-300);
