@@ -21,7 +21,7 @@ search options are passed in as attributes.
 | limit     | 20                           | limit number of results             | 
 | truncate  | 100                          | truncate search result titles       |
 | lang      | en                           | search language (defaults to site.lang)     |
-| currency  | EUR                          | search currency (default to shop.currency)  |
+| currency  | EUR                          | search currency (defaults to shop.currency)  |
 
 You can use more attributes as search query parameters, read more at [cradlecms.com](https://cradlecms.com/docs).
 
