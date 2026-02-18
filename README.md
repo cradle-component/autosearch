@@ -27,9 +27,10 @@ You can use more attributes as search query parameters, read more at [cradlecms.
 ### Example
 ```
 {% component 'asearch.js' %}
-<a-search include="pages,articles,products" filter="title,image,featured_image,price,compare_at_price">
+<a-search include="pages,articles,products" filter="title,image,featured_image,price,compare_at_price" lang="{{lang}}" currency="{{cart.currency}}">
  <input type="search" placeholder="Search" />
 </a-search>   
 ```
+> Note when using multi language and currency you need to set the current `lang` and `currency` as attributes.
 
 <img width="523" height="185" alt="search_web_component_example" src="https://github.com/user-attachments/assets/8d295fef-19b8-47e8-b2bc-a301b2ad8bc5" />
