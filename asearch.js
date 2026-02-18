@@ -45,6 +45,9 @@ searchCSS.replaceSync(`
     width: 100%;
     color: var(--color-base-content);
 }
+.asearch .item div {
+    width: 100%;
+}
 .asearch .item a {
     display: flex;
     flex-direction: row;
